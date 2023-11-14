@@ -23,3 +23,7 @@ body {display: flex
     margin-left: 1em;
 }
 
+.intro{
+    border-style: dotted;
+}
+
