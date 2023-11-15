@@ -5,7 +5,8 @@
     padding: 0;
 }
 
-body {display: flex
+body {
+    display: flex
 }
 
 .left-side{
@@ -16,18 +17,23 @@ body {display: flex
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
+    width: 40vw;
 }
 
 
 .right-side{
-    margin-left: 1em;
+    width: 60vw;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-flow: column nowrap;
+    align-items: normal;
+    justify-content: flex-start;
+    background-color: skyblue;
 }
 
 .intro{
     border-style: dotted;
+    margin-bottom: 80px;
+
 }
 
 form{
@@ -35,5 +41,11 @@ form{
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
     border-style: ridge;
+    align-self: baseline;
+    padding: 10%;
+}
+
+.login{
+    margin-top: 10%;
 }
 
