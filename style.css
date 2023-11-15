@@ -27,8 +27,10 @@ body {display: flex
     border-style: dotted;
 }
 
-.form{
-    display: flex;
-    flex-wrap: wrap;
+form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    border-style: ridge;
 }
 
