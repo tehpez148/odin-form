@@ -9,6 +9,7 @@
 body {
     display: flex;
     font-family: 'Roboto', sans-serif;
+    color: antiquewhite;
 }
 
 .left-side{
@@ -45,8 +46,13 @@ form{
     gap: 2rem;
     border-style: ridge;
     align-self: baseline;
-    padding: 10%;
+    padding: 1em;
     align-self: center;
+    width:75%;
+}
+
+input[type="text"]:focus{
+    box-shadow: red;
 }
 
 .login{
@@ -55,7 +61,7 @@ form{
 }
 
 button {
-    background-color: peachpuff;
+    background-color:olivedrab;
     border: none;
     color: white;
     padding: 15px 32px;
