@@ -77,3 +77,7 @@ button {
     border-radius: 12px;
   }
 
+  button:hover{
+    background-color: goldenrod;
+  }
+
