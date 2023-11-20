@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 
 *{
@@ -6,7 +7,8 @@
 }
 
 body {
-    display: flex
+    display: flex;
+    font-family: 'Roboto', sans-serif;
 }
 
 .left-side{
@@ -27,12 +29,13 @@ body {
     flex-flow: column nowrap;
     align-items: normal;
     justify-content: flex-start;
-    background-color: skyblue;
+    background-color: seagreen;
 }
 
 .intro{
     border-style: dotted;
     margin-bottom: 80px;
+    padding: 2em;
 
 }
 
