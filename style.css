@@ -14,14 +14,20 @@ body {
 
 .left-side{
     margin-top: none;
+    background-image: url(freg3.jpg);
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.left-image{
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 40vw;
+#freg{
+    color: black;
+    background-color: rgba(180, 180, 180, 0.7);
+
+
 }
+
 
 
 .right-side{
@@ -34,7 +40,6 @@ body {
 }
 
 .intro{
-    border-style: dotted;
     margin-bottom: 80px;
     padding: 2em;
 
@@ -48,11 +53,11 @@ form{
     align-self: baseline;
     padding: 1em;
     align-self: center;
-    width:75%;
+    width:85%;
 }
 
 input[type="text"]:focus{
-    box-shadow: red;
+    background-color: red;
 }
 
 .login{
